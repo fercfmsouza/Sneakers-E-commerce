@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <title>Sneakers</title>
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <img class="menu-icon" src="./images/icon-menu.svg" alt="menu-icon" onclick="openMenu()">
+    <a class="logo" href="/">Sneakers</a>
+    <div class="navbar-list">
+      <ul id="menu-list">
+        <li><img class="close-icon" src="./images/icon-close.svg" alt="close-icon" onclick="closeMenu()"></li>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="nav-imgs">
+      <a><img class="img-cart" src="./images/icon-cart.svg" alt="shopping-cart">
+        <div class="list"></div>
+      </a>
+      <img class="img-avatar" src="./images/image-avatar.png" alt="image-avatar">
+    </div>
+
+    <!-- Modal Cart -->
+    <div class="cart-modal overlay-cart no-display">
+      <h3>Cart</h3>
+      <hr>
+      <div class="cart-content">
+        <img class="cart-img" src="./images/image-product-1-thumbnail.jpg">
+        <div class="cart-text">
+          <p>Fall Limited Edition Sneakers</p>
+          <p>
+            <span class="cart-item-price">0</span>
+            <span>x</span>
+            <span class="cart-item-quantity">0</span>
+            <span class="cart-total">0</span>
+          </p>
+        </div>
+        <img class="cart-delete" src="./images/icon-delete.svg">
+      </div>
+      <button class="checkout-button">Checkout</button>
+
+      <div class="cart-empty-text">
+        <p>Your cart is empty.</p>
+      </div>
+
+    </div>
+    <!--  -->
+  </nav>
+
+  <hr>
+
+  <!-- Overlay for burger menu - Responsive -->
+  <div class="overlay hidden no-display"></div>
+  <!--  -->
+
+  <main class="main">
+    <div class="product-img">
+      <img class="arrow-previous no-display" src="./images/icon-previous.svg">
+      <img id="main-img" src="./images/image-product-1.jpg" alt="main-sneakers">
+      <img class="arrow-next no-display" src="./images/icon-next.svg">
+      <div id="images" class="img-thumbnail">
+        <a><img src="./images/image-product-1-thumbnail.jpg" alt="sneakers-1"></a>
+        <a><img src="./images/image-product-2-thumbnail.jpg" alt="sneakers-2"></a>
+        <a><img src="./images/image-product-3-thumbnail.jpg" alt="sneakers-3"></a>
+        <a><img src="./images/image-product-4-thumbnail.jpg" alt="sneakers-4"></a>
+      </div>
+    </div>
+
+    <!-- Modal for images -->
+    <div id="imageModal" class="modal">
+      <img class="close" src="./images/icon-close.svg">
+      <div class="display-flex">
+        <div>
+          <img class="arrow-previous-modal " src="./images/icon-previous.svg">
+          <img id="modal-main-img" src="">
+          <img class="arrow-next-modal " src="./images/icon-next.svg">
+        </div>
+      </div>
+      <div id="modal-images">
+        <a><img src="./images/image-product-1-thumbnail.jpg" alt="sneakers-1"></a>
+        <a><img src="./images/image-product-2-thumbnail.jpg" alt="sneakers-2"></a>
+        <a><img src="./images/image-product-3-thumbnail.jpg" alt="sneakers-3"></a>
+        <a><img src="./images/image-product-4-thumbnail.jpg" alt="sneakers-4"></a>
+      </div>
+    </div>
+    <div id="overlay" class="overlay "></div>
+    <!--  -->
+
+    <div class="product-content">
+      <h3>Sneaker Company</h3>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+      <div class="prices">
+        <h2 id="price">$125.00</h2>
+        <h3>50%</h3>
+      </div>
+      <p class="old-price">$250.00</p>
+      <div class="product-cart">
+        <div class="product-amount">
+          <button id="remove"><img src="./images/icon-minus.svg" alt="minus-button"></button>
+          <h4 id="quantityItem">0</h4>
+          <button id="add"><img src="./images/icon-plus.svg" alt="plus-button"></button>
+        </div>
+        <button class="add-button">
+          <img src="./images/icon-cart.svg" alt="cart-image">
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    coded by <a href="https://www.linkedin.com/in/fernanda-souza-dev/">Fernanda Souza</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
