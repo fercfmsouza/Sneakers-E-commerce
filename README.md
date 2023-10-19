@@ -17,7 +17,7 @@ _Link:_ https://fercfmsouza.github.io/Food-Order/
 
 ## Example Image
 
-Here's an images of the application in action:
+Here's some images of the application in action:
 
 ![Demo desktop ](./design/desktop.png)
 ![Demo mobile](./design/mobile.png)
