@@ -13,11 +13,11 @@ This is a responsive e-commerce product page for sneakers. Users can add/remove 
 
 Deployed with Github Pages.
 
-_Link:_ https://fercfmsouza.github.io/Sneakers-E-commerce/
+_Link:_ https://fercfmsouza.github.io/Food-Order/
 
-## Demo
+## Example Image
 
-Here's a demo video of the application in action:
+Here's an images of the application in action:
 
-![Demo desktop](./design/demo-laptop.mp4)
-![Demo mobile](./design/demo-mobile.mp4)
+![Demo desktop ](./design/desktop.png)
+![Demo mobile](./design/mobile.png)
