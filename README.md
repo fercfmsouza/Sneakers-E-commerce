@@ -13,7 +13,7 @@ This is a responsive e-commerce product page for sneakers. Users can add/remove 
 
 Deployed with Github Pages.
 
-_Link:_ https://fercfmsouza.github.io/Food-Order/
+_Link:_ https://fercfmsouza.github.io/Sneakers-E-commerce/
 
 ## Example Image
 
